@@ -1,0 +1,27 @@
+{
+  "name": "ionic-nifty-modal",
+  "version": "1.0.0",
+  "homepage": "https://github.com/loringdodge/ionic-nifty-modal",
+  "authors": [
+    "Loring Dodge <loringdodge@gmail.com>"
+  ],
+  "description": "Modal animation classes for the Ionic Framework",
+  "main": [
+    "nifty.modal.css",
+  ],
+  "keywords": [
+    "mobile",
+    "html5",
+    "ionic",
+    "cordova",
+    "phonegap",
+    "tinder",
+    "angularjs",
+    "angular"
+  ],
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "ionic": "driftyco/ionic-bower#master"
+  }
+}
