@@ -61,7 +61,7 @@ For a centered modal box (not fullscreen which is default), include the followin
     background-color: #000;
     opacity: 0; } }
 ```
-
+<!--
 The javascript for the modal is the standard setup described [here](http://ionicframework.com/docs/api/service/$ionicModal/).
 
 ```javascript
@@ -97,7 +97,7 @@ angular.module('starter', ['ionic'])
     // Execute action
   });
 });
-```
+``` -->
 
 ## Animation Classes
 
