@@ -2,4 +2,4 @@ bower_components/
 example/node_modules
 example/www/lib/*
 example/platforms/*
-/platforms/*
+platforms/*
