@@ -2,7 +2,7 @@ Ionic Nifty Modal
 ===================
 
 Nifty Modal is a set of additional CSS classes to be used to animate your ionic modal box. Out of the box, ionic provides one CSS class ('slide-in-up') as the default behavior of the modal.
-The set of included classes are sourced from [Nifty Modal](https://github.com/driftyco/ionic-ion-tinder-cards) and [bounce.js](https://github.com/driftyco/ionic-ion-swipe-cards).
+The set of included classes are sourced from [Nifty Modal](https://github.com/codrops/ModalWindowEffects) and [bounce.js](https://github.com/tictail/bounce.js).
 The animations are not just limited to the modal and can be reused for other components in your application.
 
 [Demo](http://codepen.io/loringdodge/pen/PqOMZR)
@@ -12,7 +12,7 @@ The animations are not just limited to the modal and can be reused for other com
 ## Install
 
 1. Bower install instructions coming.
-2. Include 'nifty.modal.css' in index.html.
+2. Include 'nifty.modal.css' in your index.html.
 
 ## Usage
 
@@ -61,43 +61,6 @@ For a centered modal box (not fullscreen which is default), include the followin
     background-color: #000;
     opacity: 0; } }
 ```
-<!--
-The javascript for the modal is the standard setup described [here](http://ionicframework.com/docs/api/service/$ionicModal/).
-
-```javascript
-angular.module('starter', ['ionic'])
-
-.config(function($stateProvider, $urlRouterProvider) {
-
-})
-
-.controller('MyController', function($scope, $ionicModal) {
-  $ionicModal.fromTemplateUrl('my-modal.html', {
-    scope: $scope,
-    animation: 'splat'
-  }).then(function(modal) {
-    $scope.modal = modal;
-  });
-  $scope.openModal = function() {
-    $scope.modal.show();
-  };
-  $scope.closeModal = function() {
-    $scope.modal.hide();
-  };
-  //Cleanup the modal when we're done with it!
-  $scope.$on('$destroy', function() {
-    $scope.modal.remove();
-  });
-  // Execute action on hide modal
-  $scope.$on('modal.hidden', function() {
-    // Execute action
-  });
-  // Execute action on remove modal
-  $scope.$on('modal.removed', function() {
-    // Execute action
-  });
-});
-``` -->
 
 ## Animation Classes
 
