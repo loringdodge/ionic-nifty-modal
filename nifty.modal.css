@@ -1,4 +1,6 @@
-
+/*
+  For a centered modal box (not fullscreen), use the following CSS
+*/
 .ion-nifty-modal {
   width: 90%;
   min-height: 0 !important;
@@ -28,8 +30,13 @@
     background-color: #000;
     opacity: 0; } }
 
+
+/**********************************
+  Nifty Modal CSS Classes
+***********************************/
+
 /*
-  slide-in-up
+  slide-in-up (standard ionic animation class)
 */
 .slide-in-up {
   -webkit-transform: translate3d(0, 100%, 0);
@@ -49,6 +56,7 @@
 
 /*
   slide-in-down
+  https://github.com/codrops/ModalWindowEffects
 */
 .slide-in-down {
   -webkit-transform: translate3d(0, -100%, 0);
@@ -68,6 +76,7 @@
 
 /*
   fade-in-scale
+  https://github.com/codrops/ModalWindowEffects
 */
 .fade-in-scale {
   -webkit-transform: scale(0.7);
@@ -89,6 +98,7 @@
 
 /*
   fade-in-right
+  https://github.com/codrops/ModalWindowEffects
 */
 .fade-in-right {
   -webkit-transform: translate3d(20%, 0, 0);
@@ -110,6 +120,7 @@
 
 /*
   fade-in-left
+  https://github.com/codrops/ModalWindowEffects
 */
 .fade-in-left {
   -webkit-transform: translate3d(-20%, 0, 0);
@@ -131,6 +142,7 @@
 
 /*
   newspaper
+  https://github.com/codrops/ModalWindowEffects
 */
 .newspaper {
   -webkit-transform: scale(0) rotate(720deg);
@@ -152,6 +164,7 @@
 
 /*
   jelly
+  https://github.com/tictail/bounce.js
 */
 .jelly {
   opacity: 0; }
@@ -377,6 +390,7 @@
 
 /*
   road-runner
+  https://github.com/tictail/bounce.js
 */
 .road-runner {
   opacity: 0; }
@@ -802,6 +816,7 @@
 
 /*
   smack
+  https://github.com/tictail/bounce.js
 */
 .smack {
   opacity: 0; }
@@ -971,6 +986,7 @@
 
 /*
   splat
+  https://github.com/tictail/bounce.js
 */
 .splat {
   opacity: 0; }
@@ -1140,6 +1156,7 @@
 
 /*
   spin
+  https://github.com/tictail/bounce.js
 */
 .spin {
   opacity: 0; }
@@ -1300,6 +1317,7 @@
 
 /*
   swoosh
+  https://github.com/tictail/bounce.js
 */
 .swoosh {
   opacity: 0; }
@@ -1468,6 +1486,7 @@
 
 /*
   fold-unfold
+  https://github.com/tictail/bounce.js
 */
 .fold-unfold {
   opacity: 0; }
