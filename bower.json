@@ -7,7 +7,7 @@
   ],
   "description": "Modal animation classes for the Ionic Framework",
   "main": [
-    "nifty.modal.css",
+    "nifty.modal.css"
   ],
   "keywords": [
     "mobile",
@@ -19,5 +19,5 @@
     "angular"
   ],
   "license": "MIT",
-  "private": false,
+  "private": false
 }
