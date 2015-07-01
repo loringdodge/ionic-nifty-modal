@@ -15,13 +15,9 @@
     "ionic",
     "cordova",
     "phonegap",
-    "tinder",
     "angularjs",
     "angular"
   ],
   "license": "MIT",
   "private": false,
-  "dependencies": {
-    "ionic": "driftyco/ionic-bower#master"
-  }
 }
