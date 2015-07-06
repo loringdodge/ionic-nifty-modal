@@ -15,6 +15,8 @@ angular.module('starter', ['ionic'])
 
 .controller('MyController', function($scope, $ionicModal) {
 
+  $scope.modalClasses = ['slide-in-up', 'slide-in-down', 'fade-in-scale', 'fade-in-right', 'fade-in-left', 'newspaper', 'jelly', 'road-runner', 'splat', 'spin', 'swoosh', 'fold-unfold'];
+
   $scope.openModal = function(animation) {
     $ionicModal.fromTemplateUrl('my-modal.html', {
       scope: $scope,

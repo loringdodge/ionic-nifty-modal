@@ -26,53 +26,7 @@
       <ion-content class="padding">
         <div ng-controller="MyController">
 
-          <div class="row">
-            <div class="col">
-              <button class="button button-full button-assertive" ng-click="openModal('slide-in-up')">slide-in-up</button>
-            </div>
-            <div class="col">
-              <button class="button button-full button-assertive" ng-click="openModal('slide-in-down')">slide-in-down</button>
-            </div>
-            <div class="col">
-              <button class="button button-full button-assertive" ng-click="openModal('fade-in-scale')">fade-in-scale</button>
-            </div>
-          </div>
-
-          <div class="row">
-            <div class="col">
-              <button class="button button-full button-assertive" ng-click="openModal('fade-in-right')">fade-in-right</button>
-            </div>
-            <div class="col">
-              <button class="button button-full button-assertive" ng-click="openModal('fade-in-left')">frade-in-left</button>
-            </div>
-            <div class="col">
-              <button class="button button-full button-assertive" ng-click="openModal('newspaper')">newspaper</button>
-            </div>
-          </div>
-
-          <div class="row">
-            <div class="col">
-              <button class="button button-full button-assertive" ng-click="openModal('jelly')">jelly</button>
-            </div>
-            <div class="col">
-              <button class="button button-full button-assertive" ng-click="openModal('road-runner')">road-runner</button>
-            </div>
-            <div class="col">
-              <button class="button button-full button-assertive" ng-click="openModal('splat')">splat</button>
-            </div>
-          </div>
-
-          <div class="row">
-            <div class="col">
-              <button class="button button-full button-assertive" ng-click="openModal('spin')">spin</button>
-            </div>
-            <div class="col">
-              <button class="button button-full button-assertive" ng-click="openModal('swoosh')">swoosh</button>
-            </div>
-            <div class="col">
-              <button class="button button-full button-assertive" ng-click="openModal('fold-unfold')">fold-unfold</button>
-            </div>
-          </div>
+          <button ng-repeat="class in modalClasses" class="button button-full button-assertive" ng-click="openModal(class)">{{ class }}</button>
 
         </div>
       </ion-content>
